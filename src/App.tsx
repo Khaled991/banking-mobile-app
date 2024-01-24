@@ -7,7 +7,7 @@
 
 import React from 'react';
 import type {PropsWithChildren} from 'react';
-import {Appbar} from 'react-native-paper';
+// import {Appbar} from 'react-native-paper';
 import {
   SafeAreaView,
   ScrollView,
@@ -36,7 +36,7 @@ function App(): React.JSX.Element {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
-        <Appbar style={styles.bottom}>
+        {/* <Appbar style={styles.bottom}>
           <Appbar.Action
             icon="archive"
             onPress={() => console.log('Pressed archive')}
@@ -53,8 +53,7 @@ function App(): React.JSX.Element {
             icon="delete"
             onPress={() => console.log('Pressed delete')}
           />
-        </Appbar>
-        <View style={{}}></View>
+        // </Appbar> */}
       </ScrollView>
     </SafeAreaView>
   );

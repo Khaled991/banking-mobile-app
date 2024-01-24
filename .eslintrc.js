@@ -3,6 +3,6 @@ module.exports = {
   extends: '@react-native',
   plugins: ['prettier'],
   rules: {
-    'prettier/prettier': 0,
+    endOfLine: 'auto',
   },
 };
